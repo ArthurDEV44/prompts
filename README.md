@@ -20,6 +20,7 @@ tmux new -s claude-team "claude"
 | [debug-hypotheses.md](prompts/debug-hypotheses.md) | Debug with competing hypotheses | 2-5 |
 | [review-pr.md](prompts/review-pr.md) | Multi-angle PR code review | 2-5 |
 | [refactor-codebase.md](prompts/refactor-codebase.md) | Refactor, migrate, or clean up a codebase | 2-6 |
+| [explore-codebase.md](prompts/explore-codebase.md) | Explore and map an unknown codebase | 2-5 |
 
 Each template comes in multiple variants (simple, advanced, quick) depending on how much control you want.
 
