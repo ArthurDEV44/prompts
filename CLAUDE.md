@@ -17,6 +17,7 @@ A collection of bilingual (FR/EN) copy-paste prompt templates for Claude Code, l
   - `design-review-component.md` — Review a single component's design using fontofweb for inspiration and context7 for stack understanding
   - `pull-build-deploy.md` — Git pull then build and deploy the project
   - `rename-codebase.md` — Rename folders and files following stack best practices using context7
+  - `create-skill.md` — Create a new skill with /skill-creator and context7 to master the topic, save locally and to community folder
   - `update-skill.md` — Update an existing skill with /skill-creator and context7, save to community folder, commit and push
   - `review-prd.md` — Audit an existing PRD for consistency, completeness, and up-to-date MCP/skills references using context7
   - `refactor-code.md` — Refactor code structure at file or folder level (extract functions, separate responsibilities, apply patterns) using context7 and relevant skills
