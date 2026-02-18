@@ -14,7 +14,7 @@ Claude Craft — A collection of bilingual (FR/EN) copy-paste prompt templates f
   - `optimize-code.md` — Explore and optimize code at file, folder, or PRD level using context7
   - `design-exploration-prd.md` — Explore UI code with fontofweb design research + context7 stack learning, then write a PRD
   - `github-issue-prd.md` — Read a GitHub issue, explore the stack via context7, then write a PRD with /ralph-tui-prd
-  - `design-review-component.md` — Review a single component's design using fontofweb for inspiration and context7 for stack understanding
+  - `design-review-component.md` — Review UI design at single file, folder, page, or full codebase level using fontofweb for professional design inspiration and context7 for stack understanding
   - `pull-build-deploy.md` — Git pull then build and deploy the project
   - `rename-codebase.md` — Rename folders and files following stack best practices using context7
   - `create-skill.md` — Create a new skill with /skill-creator and context7 to master the topic, save locally and to community folder

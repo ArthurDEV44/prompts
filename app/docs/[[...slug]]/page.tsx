@@ -1,4 +1,4 @@
-import { source } from '@/lib/source';
+import { source, type DocsPageData } from '@/lib/source';
 import {
   DocsPage,
   DocsBody,
@@ -16,12 +16,13 @@ export default async function Page(props: {
   const page = source.getPage(params.slug);
   if (!page) notFound();
 
-  const MDX = page.data.body;
+  const data = page.data as DocsPageData;
+  const MDX = data.body;
 
   return (
     <DocsPage
-      toc={page.data.toc}
-      full={page.data.full}
+      toc={data.toc}
+      full={data.full}
       tableOfContent={{ style: 'clerk' }}
     >
       <DocsTitle>{page.data.title}</DocsTitle>

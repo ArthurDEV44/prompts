@@ -1,14 +1,19 @@
-import { docs } from '@/.source';
+import { docs } from '@/.source/server';
 import { loader } from 'fumadocs-core/source';
-
-const mdxSource = docs.toFumadocsSource();
-
-// Resolve files: fumadocs-mdx returns files as a function, fumadocs-core expects an array
-const files = typeof mdxSource.files === 'function'
-  ? (mdxSource.files as unknown as () => typeof mdxSource.files)()
-  : mdxSource.files;
+import type { MDXContent } from 'mdx/types';
+import type { TOCItemType } from 'fumadocs-core/toc';
+import type { StructuredData } from 'fumadocs-core/mdx-plugins';
 
 export const source = loader({
   baseUrl: '/docs',
-  source: { files },
+  source: docs.toFumadocsSource(),
 });
+
+export interface DocsPageData {
+  title: string;
+  description?: string;
+  full?: boolean;
+  body: MDXContent;
+  toc: TOCItemType[];
+  structuredData: StructuredData;
+}

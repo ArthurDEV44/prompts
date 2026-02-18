@@ -5,12 +5,16 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <HomeLayout
       nav={{
-        title: 'Claude Code Prompts',
+        title: 'Claude Craft',
       }}
       links={[
         {
-          text: 'Documentation',
+          text: 'Prompts',
           url: '/docs',
+        },
+        {
+          text: 'Skills',
+          url: '/skills',
         },
         {
           text: 'GitHub',
