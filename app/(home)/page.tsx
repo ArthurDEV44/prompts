@@ -9,7 +9,7 @@ import {
 } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 
-const GITHUB_URL = 'https://github.com/arthumusic/prompts';
+const GITHUB_URL = 'https://github.com/ArthurDEV44/claude-craft';
 
 const categories = [
   {
