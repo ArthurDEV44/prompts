@@ -21,6 +21,8 @@ A collection of bilingual (FR/EN) copy-paste prompt templates for Claude Code, l
   - `review-prd.md` — Audit an existing PRD for consistency, completeness, and up-to-date MCP/skills references using context7
   - `refactor-code.md` — Refactor code structure at file or folder level (extract functions, separate responsibilities, apply patterns) using context7 and relevant skills
   - `migrate-stack.md` — Full codebase audit then migration PRD with /ralph-tui-prd, using context7 for both source and target stacks
+  - `security-audit.md` — Security audit for OWASP top 10, outdated dependencies, exposed secrets, with context7 and web search for recent CVEs
+  - `debug-error.md` — Investigate and fix errors from stack traces or logs (build, runtime, production) using context7 and relevant skills
 
 ## Template Conventions
 
