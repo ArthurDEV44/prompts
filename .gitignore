@@ -12,3 +12,16 @@ Thumbs.db
 # Env
 .env
 .env.local
+
+# Next.js
+.next/
+out/
+node_modules/
+bun.lock
+
+# Fumadocs
+.source/
+
+# Build
+*.tsbuildinfo
+next-env.d.ts

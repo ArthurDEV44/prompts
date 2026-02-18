@@ -1,4 +1,4 @@
-# Prompts — Claude Code
+# Claude Craft
 
 Ready-to-use prompt templates for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), leveraging skills, MCP servers, and agent swarms. Each template is bilingual (FR/EN) and designed to be copy-pasted directly into Claude Code — just replace the `@paths` with your own.
 

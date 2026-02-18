@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-A collection of bilingual (FR/EN) copy-paste prompt templates for Claude Code, leveraging skills, MCP servers (fontofweb, context7), and agent swarms. This is **not** a software project — no build system, no tests, no dependencies.
+Claude Craft — A collection of bilingual (FR/EN) copy-paste prompt templates for Claude Code, leveraging skills, MCP servers (fontofweb, context7), and agent swarms. This is **not** a software project — no build system, no tests, no dependencies.
 
 ## Structure
 
