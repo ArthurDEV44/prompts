@@ -19,6 +19,7 @@ A collection of bilingual (FR/EN) copy-paste prompt templates for Claude Code, l
   - `rename-codebase.md` — Rename folders and files following stack best practices using context7
   - `update-skill.md` — Update an existing skill with /skill-creator and context7, save to community folder, commit and push
   - `review-prd.md` — Audit an existing PRD for consistency, completeness, and up-to-date MCP/skills references using context7
+  - `refactor-code.md` — Refactor code structure at file or folder level (extract functions, separate responsibilities, apply patterns) using context7 and relevant skills
   - `migrate-stack.md` — Full codebase audit then migration PRD with /ralph-tui-prd, using context7 for both source and target stacks
 
 ## Template Conventions
